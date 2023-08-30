@@ -1,0 +1,126 @@
+.contenedor0 /*secciones del cuadro*/
+{
+  display: grid;
+  grid-template-columns: 360px 620px 360px;
+  grid-template-rows: 120px auto 120px ;
+  grid-area: 200px;
+  align-content: auto;
+  justify-content: stretch; /*vertical*/
+  align-items: start;
+  justify-items: justify ;
+  grid-gap: 2px;
+  padding: 0.1rem; 
+  background-color: rgb(12, 23, 43);
+  flex-wrap: wrap;
+}
+
+.titulo { /* cuandro del titulo lista TO-DO*/
+  display: flex;
+  font-size: 50px;
+  align-items: center; /*vertical*/
+  justify-content: center; /*Horizontal*/
+  Font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  background-color:darkslategrey;
+  color: rgb(218, 138, 47);
+  border: 5px;
+  border-radius: 7%;
+  border-color: aqua;
+  border-style: dotted;
+}
+
+.box2 
+{
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  background-color: rgb(19, 100, 180);
+  border: 10px;
+  border-color: blue;
+  border-style: groove;
+  height: fit-content;
+  border-start-end-radius: 50px;
+}
+
+  .lista {
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+  width: 400px;
+  padding: 2px;
+  }
+
+
+
+.botonesAgregar {
+  width: fit-content;
+  height: fit-content;
+  border-radius: auto;
+  border-width: 3px;
+  border-color: aqua;
+  will-change: filter;
+  background-color: cornflowerblue;
+  color: oldlace;
+  text-overflow: ellipsis;
+  padding: 0.7rem;
+}
+
+.botonesEliminar{
+  display: flex;
+  align-items: center;
+  border-width: 3px;
+  height: 25px;
+  padding: initial;
+  border-color: rgb(228, 30, 30);
+  border-style: inset;
+  background-color: rgb(255, 255, 255);
+
+  }
+
+
+.OtrasFilas{
+  
+  background-color: rgb(12, 23, 43);
+  height: 330px;
+
+}
+
+.redondo{
+  display: flex;
+  border-width: 3px;
+  height: 25px;
+  padding: initial;
+  align-items: center;
+  border-color: rgb(110, 194, 26);
+  border-style: inset;
+  background-color: darkslategray;
+  }
+
+  .estadisticas{
+    display: flex;
+    font-size: 95%;
+    font-weight: bold;
+    align-items: safe; /*vertical*/
+    Font-family: Arial;  
+    background-color:rgb(53, 70, 70);
+    color: rgb(241, 203, 119);
+    border: 5px;
+    border-radius: 10%;
+    border-color: rgb(30, 30, 211);
+    border-style: groove;
+
+  }
+
+
+  .botonesGenerales {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(236, 106, 13);
+    color: oldlace;
+    text-overflow: ellipsis;
+    padding: 0.3rem;
+    font-weight: bold;
+  }
+  .view{
+    width:2%;
+  }
